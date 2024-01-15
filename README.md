@@ -19,7 +19,7 @@ As I think about projects as in one hand a path to master how to work with Boots
 Below is the current state of the site, after some rework.
 
 
-![HOME](src/images/screenshots/home-tree.png "HOME") 
+![HOME](src/images/screenshots/bg-tree.png "HOME") 
 
 
 **Nav**
