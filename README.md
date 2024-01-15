@@ -71,8 +71,8 @@ The project served under the MIT License.
 
 Built with:
 
-![Static Badge](https://img.shields.io/badge/58%25-58%25?label=html)
-![Static Badge](https://img.shields.io/badge/42%25-42%25?label=css)
+![Static Badge](https://img.shields.io/badge/72%25-72%25?label=html)
+![Static Badge](https://img.shields.io/badge/28%25-28%25?label=css)
 
 
 
