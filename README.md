@@ -73,6 +73,7 @@ Built with:
 
 ![Static Badge](https://img.shields.io/badge/72%25-72%25?label=html)
 ![Static Badge](https://img.shields.io/badge/28%25-28%25?label=css)
+![Static Badge](https://img.shields.io/badge/1%25-1%25?label=js)
 
 
 
