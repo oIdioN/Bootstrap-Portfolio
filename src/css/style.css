@@ -12,3 +12,16 @@
     display: inline-block;
     margin:  0;
   }
+
+/* Form button */
+
+  .textarea-container {
+    position: relative;
+  }
+  
+  .textarea-container .submit-button {
+    position: absolute;
+    bottom: 15px; /* Adjust as needed */
+    right: 25px; /* Adjust as needed */
+  }
+  
