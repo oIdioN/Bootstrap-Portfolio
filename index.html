@@ -1,44 +1,521 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100" data-bs-theme="dark">
+<html>
+
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Csaba Locsey | Personal site</title>
-    <link href="src/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="src/css/cover.css" rel="stylesheet">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&family=Sacramento&display=swap');</style>
+    <meta charset="UTF-8">
+    <title>Csaba Locsey || Dev Student</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/js/bootstrap.bundle.min.js">
   </head>
- 
-  <body class="d-flex h-100 text-center text-bg-dark" style="background-image: url(src/images/bg-tree.jpg);">
-  
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
-        <div>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link py-1 px-0" href="#about">About Me</a>
-            <a class="nav-link py-1 px-0" href="#mywork">My work</a>
-            <a class="nav-link py-1 px-0" href="#portfolio">Portfolio</a>
-            <a class="nav-link py-1 px-0" href="#goodcauses">Good Causes</a>
-            <a class="nav-link py-1 px-0" href="#contactme">Contact Me</a>
-          </nav>
+
+  <body>
+
+    <nav class="navbar navbar-light bg-white navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./src/icons/cl_logo.png"height="30" alt="image"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav3" aria-controls="navbarNav3"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav3">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"> <a class="nav-link" href="index.html">Home</span></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#about">About Me</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#portfolio">Portfolio</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#socials">Socials</a> </li>            
+            <li class="nav-item"> <a class="btn btn-outline-dark ms-md-3" href="#contact">Contact</a> </li>
+          </ul>
+
         </div>
-      </header>
+      </div>
+    </nav>
+    <section class="pt-4 pb-3 mt-0 d-flex bg-dark"
+      style="background-image: url(./src/images/site/cover.png); min-height: 100vh; background-size: cover;">
+      <div class="container-fluid p-md-4">
+        <div class="row d-flex  h-100 ">
+          <div class="position-relative w-100 h-25  d-flex">
+            <div class="container-fluid align-self-start mt-2 mb-2">
+              <div class="row">
+                   <div class="col-md-9 col-7 text-right">
+                  <div class="row align-items-center">                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="position-relative w-100 h-50 d-flex">
+            <div class="container-fluid align-self-center mb-2">
+              <div class="row justify-content-start">
+                <div class="col-12 col-md-6">
+                  <h3 class="small text-light">W E L C O M E</h3>
+                  <h1 class="mb-0 pt-sm-4 text-light">Hi! I am Csaba
+                    <br>A Freelance Web App &
+                    <br>UI Designer                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="position-relative  w-100  h-25 d-flex">
+            <div class="container-fluid align-self-center  mt-5 mb-2">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class=" pt-0 d-md-inline-block d-flex-row text-center text-md-left justyfy-content-md-start justyfy-content-center">
+                    <a href="#" role="button" class=" btn btn-link mr-2">
+                      <i class="fab fa-twitter fa-lg text-light"
+                        aria-hidden="true"></i>
+                    </a>
+                    <a href="#" role="button" class=" btn btn-link mr-2">
+                      <i class="fab fa-facebook fa-lg text-light"
+                        aria-hidden="true"></i>
+                    </a>
+                    <a href="#" role="button" class=" btn btn-link mr-2">
+                      <i aria-hidden="true"
+                        class="fab fa-linkedin fa-lg text-light"></i>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 pt-sm-4 text-md-right text-center d-flex justify-content-end">
+                  <a href="#portfolio" class="btn btn-outline-light mt-md-0 mt-3">See my
+                    portfolio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <main class="px-3">
-    <h1>Hello there.</h1>
-    <p class="lead">Maybe we know each other, maybe we don't.</p>
-    <p>If the later, let me introduce myself: I'm Csaba, a Frontend developer, minimalist and coffee addict looking to change things to better.</p>
-    <p>It's nice to meet you.</p>
-    <p class="lead">
-      <a href="#contactme" class="btn btn-lg btn-light fw-bold border-white bg-white">Get in touch</a>
-    </p>
-  </main>
+    <!--Skills part-->
+    <section class="page-section" id="about">
+      <div class="container pt-5 pb-5 pb-0">
+        <div class="row text-start d-flex align-items-center">
+          <div class="col-12 col-md-12">
+            <div class="br-0">
+             <h2 class="mb-3">About Me</h2>
+              <p class="text-h3">I'm a newbie front-end developer with a passion for creating visually appealing and interactive websites. 
+                I've started learning HTML and CSS to structure and style web pages, and I'm now diving into JavaScript to add dynamic elements to the sites I build. 
+                I'm excited to continue my journey and collaborate with others to create engaging web experiences for users.</p>              
+            </div>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="br-0">
+              <!--<h2 class="mb-3">Some skills</h2>-->
+              <p class="text-h3">I have a passion for creating visually appealing and interactive websites. 
+                I've started learning HTML and CSS to structure and style web pages, and I'm now diving into JavaScript to add dynamic elements to the sites I build. 
+                I'm excited to continue my journey and collaborate with others to create engaging web experiences for users.</p>              
+            </div>
+          </div>
+          <!--ProgessBar-->
+          <div class="col-12 col-md-7">
+            <div class="progress mb-3 mt-2">
+              <div class="progress-bar  bg-danger" role="progressbar" style="width: 60%"> <span class="stacked-label">HTML</span>
+              </div>
+            </div>
+            <div class="progress mb-3 mt-2">
+              <div class="progress-bar  bg-success" role="progressbar" style="width: 70%"> <span class="stacked-label">CSS</span>
+              </div>
+            </div>
+            <div class="progress mb-3 mt-2">
+              <div class="progress-bar  bg-warning" role="progressbar" style="width: 80%"> <span class="stacked-label">JavaScript</span>
+              </div>
+            </div>
+            <div class="progress mb-3 mt-2">
+              <div class="progress-bar  bg-warning" role="progressbar" style="width: 80%"> <span class="stacked-label">Node.JS</span>
+              </div>
+            </div>
+            <div class="progress mb-3 mt-2">
+              <div class="progress-bar  bg-info" role="progressbar" style="width: 10%"> <span class="stacked-label">React</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <footer class="mt-auto text-white-50">
-    <p>background by <a href="https://unsplash.com/@kajhinkson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="text-white">Kyle Hinkson</a> on <a href="https://unsplash.com/photos/trees-on-field-HTcdZ7K2DzY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="text-white">Unsplash</a>
-    </p>
-     </footer>
-  </div>
+    <!--Portfolio head-->
+    <section class="page-section" id="portfolio">
+      <div class="container pt-5 pb-5">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-5">
+            <h2 class="mb-3">My projects</h2>
+            <div class="br-0">
+            <p class="text-h3">My journey in coding began in spring 2018, and since then, I've honed my skills in HTML, CSS, and JavaScript, 
+              building several projects that showcase my ability to transform designs into functional and responsive websites. 
+              Currently, I'm actively working on my own startup, where I'm not only developing the front-end but also contributing 
+              to the overall business strategy and growth. My dedication to learning and innovation is reflected in my work, 
+              and I'm excited to bring my skills to new challenges in the tech industry.</p>
+            </div>  
+            <div class="row align-items-center">
+          </div>
+          </div>
+          <div class="col-12 col-md-6 mt-4 mt-md-0">
+            <img alt="image" class="img-fluid shadow"
+              src=" https://dummyimage.com/550x350/5fa9f8/efefef">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--portfolio examples-->
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
+              <img class="img-fluid" alt="100%x280"
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+              <div class="card-body">
+                <h4 class="card-title">Healthy Bites</h4>
+                <!--<h3 class=" small card-title">Bootcamp Group Project</h3>-->
+                <p class="card-text">Healthy Bites is a recipe and restaurant search site based on dietary needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
+              <img class="img-fluid" alt="100%x280"
+                src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+              <div class="card-body">
+                <h4 class="card-title">ProgQuiz</h4>
+                <p class="card-text">ProgQuiz is a fun Quiz game with Programming paradigms.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card shadow-sm">
+              <img class="img-fluid" alt="100%x280"
+                src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+              <div class="card-body">
+                <h4 class="card-title">JS Password Generator</h4>
+                <p class="card-text">A personal Password Generator with character options written in JavaScript.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <!--Meet me section-->
+    <section class="page-section" id="socials">
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div class="row text-start">
+          <div class="col-12 col-md-8 col-lg-6">
+            
+              <h2 class="mb-3">My Socials</h2>
+              <div class="br-0">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-4 mb-4 ">
+            <div class="card card-body shadow text-center h-auto">
+              <i class="fab fa-behance fa-3x" aria-hidden="true"></i>
+              <div class="title">
+                <h3>Behance</h3>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Get there</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 ">
+            <div class="card card-body shadow text-center h-100">
+              <i class="fab fa-twitter fa-3x" aria-hidden="true"></i>
+              <div class="title">
+                <h3>Twitter</h3>
+              </div>
+              <div class="text">
+                <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum
+                  decore te sed. Elitr scripta ocurreret qui ad.</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Follow me</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 ">
+            <div class="card card-body shadow text-center h-100">
+              <i class="fab fa-facebook fa-3x" aria-hidden="true"></i>
+              <div class="title">
+                <h3>Facebook</h3>
+              </div>
+              <div class="text">
+                <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum
+                  decore te sed. Elitr scripta ocurreret qui ad.</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Let's connect</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 ">
+            <div class="card card-body shadow text-center h-100">
+              <i class="fab fa-pinterest-p fa-3x" aria-hidden="true"></i>
+              <div class="title">
+                <h3>Pinterest</h3>
+              </div>
+              <div class="text">
+                <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum
+                  decore te sed. Elitr scripta ocurreret qui ad.</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Get there</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 ">
+            <div class="card card-body shadow text-center h-100">
+              <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+              <div class="title">
+                <h3>LinkedIn</h3>
+              </div>
+              <div class="text">
+                <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum
+                  decore te sed. Elitr scripta ocurreret qui ad.</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Let's connect</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 ">
+            <div class="card card-body shadow text-center h-100">
+              <i class="fab fa-github fa-3x" aria-hidden="true"></i>
+              <div class="title">
+                <h3>Github</h3>
+              </div>
+              <div class="text">
+                <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum
+                  decore te sed. Elitr scripta ocurreret qui ad.</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Collaborate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Things I do care section-->
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div class="row mb-5 justify-content-between">
+          <div class="col-md-4">
+            <h2 class="pt-md-4">Things I do care about</h2>
+          </div>
+          <div class="col-md-8">
+            <div class="container-fluid">
+              <div class="row text-center justify-content-sm-center ">
+                <div class="col-12  col-md-4 m-auto">
+                  <i class="far fa-gem fa-3x mb-3 mt-3 text-primary"
+                    aria-hidden="true"></i>
+                  <h3 class="mt-2 mb-3">Feature title</h3>
+                  <p>sample conent</p>
+                  <p class="mt-4">
+                    <a href="#">Read More &gt;</a>
+                  </p>
+                </div>
+                <div class="col-12  col-md-4 m-auto">
+                  <i class="far fa-gem fa-3x mb-3 mt-3 text-primary"
+                    aria-hidden="true"></i>
+                  <h3 class="mt-2 mb-3">Feature title</h3>
+                  <p class="mt-4">
+                    <a href="#">Read More &gt;</a>
+                  </p>
+                </div>
+                <div class="col-12  col-md-4 m-auto">
+                  <i class="far fa-gem fa-3x mb-3 mt-3 text-primary"
+                    aria-hidden="true"></i>
+                  <h3 class="mt-2 mb-3">Feature title</h3>
+                  <p class="mt-4">
+                    <a href="#">Read More</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact-->
+    <section class="page-section" id="contact">
+       <div class="container pt-5 pb-5">
+        <div class="row mb-5 justify-content-end">
+          <div class="col-md-4">
+            <h2 class="pt-md-4">Contact Me</h2>
+          </div>
+
+          <div class="col-md-8">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-8">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <input type="text" class="form-control"
+                          placeholder="Name">
+                        <div
+                          style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"
+                          data-lastpass-icon-root=""></div>
+                        <div
+                          style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"
+                          data-lastpass-icon-root=""></div>
+                      </div>
+                      <div class="col-12 col-md mt-4 mt-md-0">
+                        <input type="text" class="form-control"
+                          placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col">
+                        <input type="email" class="form-control"
+                          placeholder="Subject">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col">
+                        <textarea class="form-control border-secondary"
+                          name="message" rows="3" placeholder="Message"
+                          spellcheck="false"></textarea>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col text-center">
+                        <button type="submit"
+                          class="btn btn-primary btn-lg">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact ver1
+    <section class="pt-5 pb-5">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="">
+              <div class="row text-center justify-content-center">
+                <div class="col-12 col-md-9 col-lg-7">
+                  <h3 class="fw-bold display-4">Contact Us</h3>
+                  <p class="lead">Fusce dapibus, tellus ac cursus commodo,
+                    tortor mauris condimentum nibh, ut fermentum massa justo sit
+                    amet risus.</p>
+                </div>
+              </div>
+              <div class="row justify-content-center pt-4">
+                <div class="col-12 col-md-8">
+                  <form>
+                    <div class="row">
+                      <div class="col-12 col-md">
+                        <input type="text" class="form-control"
+                          placeholder="Name">
+                        <div
+                          style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"
+                          data-lastpass-icon-root=""></div>
+                        <div
+                          style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"
+                          data-lastpass-icon-root=""></div>
+                      </div>
+                      <div class="col-12 col-md mt-4 mt-md-0">
+                        <input type="text" class="form-control"
+                          placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col">
+                        <input type="email" class="form-control"
+                          placeholder="Subject">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col">
+                        <textarea class="form-control border-secondary"
+                          name="message" rows="3" placeholder="How can we help?"
+                          spellcheck="false"></textarea>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col text-center">
+                        <button type="submit"
+                          class="btn btn-primary btn-lg">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    
+
+    <!--footer section-->
+    <section class="pt-5 pb-5 bg-dark text-white">
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+              <p>Copyright 2024 © oIdioN. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mb-4">
+              <a href="#" class="m-2">
+                <i class="fab fa-twitter fa-lg text-white"
+                  aria-hidden="true"></i>
+              </a>
+              <a href="#" class="m-2">
+                <i class="fab fa-facebook fa-lg text-white"
+                  aria-hidden="true"></i>
+              </a>
+              <a href="#" class="m-2">
+                <i class="fab fa-instagram fa-lg text-white"
+                  aria-hidden="true"></i>
+              </a>
+              <a href="#" class="m-2">
+                <i class="fab fa-pinterest fa-lg text-white"
+                  aria-hidden="true"></i>
+              </a>
+              <a href="#" class="m-2">
+                <i class="fab fa-linkedin fa-lg text-white"
+                  aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+
+  </body>
+
+</html>
 
   <script src="src/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 

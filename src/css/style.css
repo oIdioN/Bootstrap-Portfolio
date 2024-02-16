@@ -1,0 +1,14 @@
+
+
+
+
+.navbar {
+    position: fixed;
+}
+
+
+.btn-text-only {
+    padding:  0;
+    display: inline-block;
+    margin:  0;
+  }

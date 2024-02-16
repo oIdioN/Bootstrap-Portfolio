@@ -1,26 +1,24 @@
 
-/* 
-* Globals 
-*/
+/
+
+/* Globals */
 
 /* Custom default button */
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none; 
 }
 
 
-/* 
- * Base structure
- */
+/* Base structure */
  
- .text-bg-dark
- {
+ .text-bg-dark {
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   /*background-attachment: fixed; */
    } 
  
 .cover-container {
@@ -28,9 +26,7 @@
 }
 
 
-/*
- * Header
- */
+/* Header */
 
 .nav-masthead .nav-link {
   color: whitesmoke;
@@ -51,9 +47,7 @@
   border-bottom-color: #fff;
 }
 
-/*
- * Text Override
- */
+/* Text Override  */
 
 h1 {
   font-family: 'Sacramento', cursive;
@@ -68,4 +62,4 @@ h1 {
 
 footer p, a{
   font-size: 0.9rem;
-}
+} 
