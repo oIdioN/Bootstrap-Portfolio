@@ -1,26 +1,7 @@
 
 
 
-
-.navbar {
-    position: fixed;
-}
-
-.cover {
-opacity: 0.7;
-
-
-}
-
-
-
-.btn-text-only {
-    padding:  0;
-    display: inline-block;
-    margin:  0;
-  }
-
-/* Form button */
+/* Contact form button */
 
   .textarea-container {
     position: relative;
@@ -28,7 +9,10 @@ opacity: 0.7;
   
   .textarea-container .submit-button {
     position: absolute;
-    bottom: 15px; /* Adjust as needed */
-    right: 25px; /* Adjust as needed */
+    bottom: 15px; 
+    right: 25px; 
   }
   
+  .img-fluid {
+    padding-top: 3px;
+  }

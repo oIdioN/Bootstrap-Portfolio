@@ -11,9 +11,10 @@
     <link rel="icon" href="favicon.ico">
 <!-- Plugins -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js">
+  
 
   </head>
 
@@ -21,8 +22,7 @@
 <!--Navigation-->
     <nav class="navbar navbar-light bg-white navbar-expand-md fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="./src/icons/cl_logo.png" height="40" alt="logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="./src/icons/cl_logo.png" height="40" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav3" aria-controls="navbarNav3"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav3">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"> <a class="nav-link" href="index.html">Home</span></a> </li>
+            <li class="active"> <a class="nav-link" href="index.html">Home</span></a> </li>
             <li class="nav-item"> <a class="nav-link" href="#about">About Me</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#portfolio">Portfolio</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#socials">Socials</a> </li>            
@@ -41,8 +41,8 @@
     </nav>
 
 <!--Cover-->
-    <section class="pt-4 pb-3 mt-0 d-flex bg-dark cover" style="background-image: url(./src/images/site/cover.png); min-height: 100vh; background-size: cover;">
-      <div class="container-fluid p-md-4">
+<section class="pt-4 pb-3 mt-0 d-flex header" style="background-image: url(./src/images/site/cover.png); min-height: 100vh; background-size: cover; background-position: center;">
+    <div class="container-fluid p-md-4">
         <div class="row    d-flex  h-100 ">
           <div class="position-relative  w-100 h-25  d-flex">
             <div class="container-fluid align-self-start   mt-2 mb-2">
@@ -67,13 +67,14 @@
             <div class="container-fluid align-self-center  mt-5 mb-2">
               <div class="row">
                 <div class="col-md-6">
-                  <div class=" pt-0 d-md-inline-block d-flex-row text-center text-md-left justyfy-content-md-start justyfy-content-center">
+                  <div class=" pt-0 d-md-inline-block d-flex-row text-center text-md-left justify-content-md-start justify-content-center">
                     <a href="#" role="button" class=" btn btn-link mr-2"><i class="fa-brands fa-twitter fa-xl text-light"></i><a>
                     <a href="#" role="button" class=" btn btn-link mr-2"><i class="fa-brands fa-github fa-xl text-light"></i></a>
                     <a href="#" role="button" class=" btn btn-link mr-2"><i class="fa-brands fa-linkedin fa-xl text-light"></i></a>
                   </div>
                 </div>
-                <div class="col-md-6 pt-sm-4 text-md-right text-center d-flex justify-content-end"><a href="#portfolio" class="btn btn-outline-light mt-md-0 mt-3">See my portfolio</a>
+                <div
+                  class="col-md-6 pt-sm-4 text-md-right text-center d-flex justify-content-end"><a href="#portfolio" class="btn btn-outline-light mt-md-0 mt-3">My portfolio</a>
                 </div>
               </div>
             </div>
@@ -165,7 +166,7 @@
           <div class="col-md-4 mb-3">
             <div class="card shadow-sm">
               <img class="img-fluid" alt="100%x280"
-                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                src="./src/images/site/healthybites.png">
               <div class="card-body">
                 <h4 class="card-title">Healthy Bites</h4>
                 <!--<h3 class=" small card-title">Bootcamp Group Project</h3>-->
@@ -176,7 +177,7 @@
           <div class="col-md-4 mb-3">
             <div class="card shadow-sm">
               <img class="img-fluid" alt="100%x280"
-                src="./src/images/site/Horiseon.png">
+                src="./src/images/site/progquiz.png">
               <div class="card-body">
                 <h4 class="card-title">ProgQuiz</h4>
                 <p class="card-text">ProgQuiz is a time limited quiz game on Programming paradigms.</p>
@@ -219,7 +220,7 @@
                   <h3>Behance</h3>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Get there</button>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Get there</button>
                 </div>
               </div>
             </div>
@@ -230,7 +231,7 @@
                   <h3>Twitter</h3>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Follow me</button>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Follow me</button>
                 </div>
               </div>
             </div>
@@ -241,7 +242,7 @@
                   <h3>Facebook</h3>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Let's connect</button>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Let's connect</button>
                 </div>
               </div>
             </div>
@@ -252,7 +253,7 @@
                   <h3>Pinterest</h3>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Get there</button>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Get there</button>
                 </div>
               </div>
             </div>
@@ -263,7 +264,7 @@
                   <h3>LinkedIn</h3>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Let's connect</button>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Let's connect</button>
                 </div>
               </div>
             </div>
@@ -274,7 +275,7 @@
                   <h3>Github</h3>
                 </div>
                 <div>
-                  <button type="button" class="btn btn-outline-secondary btn-sm btn-text-only">Collaborate</button>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Collaborate</button>
                 </div>
               </div>
             </div>
