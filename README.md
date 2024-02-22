@@ -16,7 +16,7 @@
 <h3 align="center">Bootstrap Portfolio</h3>
 
   <p align="center">
-   This challenge is about a Password Generator app features dynamically updated HTML and CSS, all powered by JavaScript. <br> App has to have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. <br> The password also includes special characters.
+   This challenge is about a Portfolio page based on Bootstrap <br> App has to have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. <br>It is an extension of a previous Portfolio challenge.
     <br />
     <br />
     <a href="https://github.com/oIdioN/Bootstrap-Portfolio">Repo page</a>
@@ -81,7 +81,8 @@ The screenshot of the whole website.
 
 ### Built With
 
-![Static Badge](https://img.shields.io/badge/HTML-34%25-red?style=plastic) ![Static Badge](https://img.shields.io/badge/CSS-32%25-brightgreen?style=plastic) ![Static Badge](https://img.shields.io/badge/JavaScript-34%25-orange?style=plastic)
+![Static Badge](https://img.shields.io/badge/HTML-96%25-red?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/css-4%25-brigthgreen?style=for-the-badge)
 
 
 ## Description 
@@ -212,15 +213,15 @@ Distributed under the MIT License.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/oIdioN/Bootstrap-Portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/oIdioN/Bootstrap-Portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/oIdioN/Bootstrap-Portfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/oIdioN/Bootstrap-Portfolio/forks
-[stars-shield]: https://img.shields.io/github/stars/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/oIdioN/Bootstrap-Portfolio.svg?style=for-the-badge
 [stars-url]: https://github.com/oIdioN/Bootstrap-Portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ooIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/oIdioN/Bootstrap-Portfolio.svg?style=for-the-badge
 [issues-url]: https://github.com/oIdioN/Bootstrap-Portfolio/issues 
-[license-shield]: https://img.shields.io/github/license/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/oIdioN/Bootstrap-Portfolio.svg?style=for-the-badge
 [license-url]: https://github.com/oIdioN/Bootstrap-Portfolio?tab=MIT-1-ov-file#readme
 [product-screenshot]: src/images/screenshot/sitecover.png
 [NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
