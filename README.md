@@ -152,7 +152,7 @@ The "submit" button at the contact area now lives inside the text area.
 
 For issues, head to <a href="https://github.com/oIdioN/Bootstrap-Portfolio/issues">Issues</a> for a full list.
 
-At this point, a few issues are existing. All the issues had been left untreated, to serve as a training ground for working with git and version control. For example, social links missing from no account has been setup yet, such as Beance.
+At this point, a few issues are existing. All the issues had been left untreated, to serve as a training ground for working with git and version control. For example, social links missing from no account has been setup yet, such as Behance.
 
 
 
