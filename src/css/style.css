@@ -1,15 +1,15 @@
-
+/* Begin */
 
 body {
   margin-top: 70px;
     font-family: 'Poppins', system-ui, sans-serif; 
-  
 }
 
+/* Navbar */
 
 .navbar {
   background-color: transparent;
-  border-bottom: 2px solid rgb(247, 245, 245); /*experimental */
+  border-bottom: 2px solid rgb(247, 245, 245); /* temp/experimental */
 }
 
 .nav-link:hover {
@@ -22,24 +22,30 @@ a:link, a:visited, a:hover, a:active {
   color: black;
 }
 
+/* Cover and Footer icons */
 
-.card-body:hover {
-  transform: scale(1.03);
+i.fa-brands:hover {
+  transform: scale(1.25);  
 }
 
+/* Social link cards hover */
+
+.card-body:hover {
+  transform: scale(1.05);
+}
 
 /* Contact form button */
 
-  .textarea-container {
-    position: relative;
-  }
+.textarea-container {
+  position: relative;
+}
   
-  .textarea-container .submit-button {
-    position: absolute;
-    bottom: 15px; 
-    right: 25px; 
-  }
+.textarea-container .submit-button {
+  position: absolute;
+  bottom: 15px; 
+  right: 25px; 
+}
   
-  .img-fluid {
-    padding-top: 3px;
-  }
+.img-fluid {
+  padding-top: 3px;
+}
