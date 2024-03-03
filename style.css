@@ -28,6 +28,11 @@ i.fa-brands:hover {
   transform: scale(1.25);  
 }
 
+/* Cards */
+p.card-text, h4.card-title {
+text-decoration: none;
+}
+
 /* Social link cards hover */
 
 .card-body:hover {
